@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8C1782527D9B478004D9F32 /* ModuleShare in Frameworks */ = {isa = PBXBuildFile; productRef = A8C1782427D9B478004D9F32 /* ModuleShare */; };
 		A8EA426027D66815006129B4 /* RouterExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EA425F27D66815006129B4 /* RouterExampleApp.swift */; };
-		A8EA426227D66815006129B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EA426127D66815006129B4 /* ContentView.swift */; };
 		A8EA426427D66816006129B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EA426327D66816006129B4 /* Assets.xcassets */; };
 		A8EA426727D66816006129B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EA426627D66816006129B4 /* Preview Assets.xcassets */; };
+		A8EA427227D675CE006129B4 /* AppRouteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EA427127D675CE006129B4 /* AppRouteCoordinator.swift */; };
+		A8EA427527D675FF006129B4 /* AppHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EA427427D675FF006129B4 /* AppHomeView.swift */; };
+		A8EA428027D676F5006129B4 /* AppHomeRouteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EA427F27D676F5006129B4 /* AppHomeRouteCoordinator.swift */; };
+		A8EA428227D6929A006129B4 /* ModuleOne in Frameworks */ = {isa = PBXBuildFile; productRef = A8EA428127D6929A006129B4 /* ModuleOne */; };
+		A8EA428427D6929A006129B4 /* ModuleTwo in Frameworks */ = {isa = PBXBuildFile; productRef = A8EA428327D6929A006129B4 /* ModuleTwo */; };
+		A8EA428B27D9B077006129B4 /* Router in Frameworks */ = {isa = PBXBuildFile; productRef = A8EA428A27D9B077006129B4 /* Router */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A8EA425C27D66815006129B4 /* RouterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EA425F27D66815006129B4 /* RouterExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterExampleApp.swift; sourceTree = "<group>"; };
-		A8EA426127D66815006129B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8EA426327D66816006129B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8EA426627D66816006129B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8EA426E27D67447006129B4 /* ModuleTwo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ModuleTwo; sourceTree = "<group>"; };
+		A8EA426F27D674A1006129B4 /* ModuleOne */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ModuleOne; sourceTree = "<group>"; };
+		A8EA427127D675CE006129B4 /* AppRouteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouteCoordinator.swift; sourceTree = "<group>"; };
+		A8EA427427D675FF006129B4 /* AppHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomeView.swift; sourceTree = "<group>"; };
+		A8EA427F27D676F5006129B4 /* AppHomeRouteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomeRouteCoordinator.swift; sourceTree = "<group>"; };
+		A8EA429027D9B28A006129B4 /* ModuleShare */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ModuleShare; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +37,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C1782527D9B478004D9F32 /* ModuleShare in Frameworks */,
+				A8EA428427D6929A006129B4 /* ModuleTwo in Frameworks */,
+				A8EA428227D6929A006129B4 /* ModuleOne in Frameworks */,
+				A8EA428B27D9B077006129B4 /* Router in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +50,12 @@
 		A8EA425327D66815006129B4 = {
 			isa = PBXGroup;
 			children = (
+				A8EA429027D9B28A006129B4 /* ModuleShare */,
+				A8EA426F27D674A1006129B4 /* ModuleOne */,
+				A8EA426E27D67447006129B4 /* ModuleTwo */,
 				A8EA425E27D66815006129B4 /* RouterExample */,
 				A8EA425D27D66815006129B4 /* Products */,
+				A8EA427B27D6767D006129B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				A8EA425F27D66815006129B4 /* RouterExampleApp.swift */,
-				A8EA426127D66815006129B4 /* ContentView.swift */,
+				A8EA427127D675CE006129B4 /* AppRouteCoordinator.swift */,
+				A8EA427427D675FF006129B4 /* AppHomeView.swift */,
+				A8EA427F27D676F5006129B4 /* AppHomeRouteCoordinator.swift */,
 				A8EA426327D66816006129B4 /* Assets.xcassets */,
 				A8EA426527D66816006129B4 /* Preview Content */,
 			);
@@ -65,6 +86,13 @@
 				A8EA426627D66816006129B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8EA427B27D6767D006129B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +111,12 @@
 			dependencies = (
 			);
 			name = RouterExample;
+			packageProductDependencies = (
+				A8EA428127D6929A006129B4 /* ModuleOne */,
+				A8EA428327D6929A006129B4 /* ModuleTwo */,
+				A8EA428A27D9B077006129B4 /* Router */,
+				A8C1782427D9B478004D9F32 /* ModuleShare */,
+			);
 			productName = RouterExample;
 			productReference = A8EA425C27D66815006129B4 /* RouterExample.app */;
 			productType = "com.apple.product-type.application";
@@ -96,6 +130,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
+				ORGANIZATIONNAME = "Carl Funk";
 				TargetAttributes = {
 					A8EA425B27D66815006129B4 = {
 						CreatedOnToolsVersion = 13.1;
@@ -111,6 +146,9 @@
 				Base,
 			);
 			mainGroup = A8EA425327D66815006129B4;
+			packageReferences = (
+				A8EA428927D9B077006129B4 /* XCRemoteSwiftPackageReference "Router" */,
+			);
 			productRefGroup = A8EA425D27D66815006129B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8EA426227D66815006129B4 /* ContentView.swift in Sources */,
+				A8EA428027D676F5006129B4 /* AppHomeRouteCoordinator.swift in Sources */,
+				A8EA427527D675FF006129B4 /* AppHomeView.swift in Sources */,
 				A8EA426027D66815006129B4 /* RouterExampleApp.swift in Sources */,
+				A8EA427227D675CE006129B4 /* AppRouteCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +315,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -286,7 +327,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +345,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,7 +357,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +383,37 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A8EA428927D9B077006129B4 /* XCRemoteSwiftPackageReference "Router" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CarlFunk/Router";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A8C1782427D9B478004D9F32 /* ModuleShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuleShare;
+		};
+		A8EA428127D6929A006129B4 /* ModuleOne */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuleOne;
+		};
+		A8EA428327D6929A006129B4 /* ModuleTwo */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuleTwo;
+		};
+		A8EA428A27D9B077006129B4 /* Router */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8EA428927D9B077006129B4 /* XCRemoteSwiftPackageReference "Router" */;
+			productName = Router;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A8EA425427D66815006129B4 /* Project object */;
 }
